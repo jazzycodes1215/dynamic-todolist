@@ -41,7 +41,7 @@ ul li.checked {
 
 .submit-btn {
   height: 20px;
-  color: #564734;
+  color: #E0EFEA;
   border: 1px solid #000;
   border-radius: 18px;
   font-family: "Axiforma Regular", sans-serif;
@@ -62,7 +62,8 @@ ul li.checked {
 }
 
 .main-h1 {
-    margin: 40px 20px 0 40px ;
+    font-size: 2rem;
+    margin: 40px 60px;
 }
 
 .input-field {
@@ -83,7 +84,7 @@ ul li.checked {
 .inp-form {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #main-content-container {
@@ -91,7 +92,7 @@ ul li.checked {
     flex-direction: column;
     text-align: center;
     background-color: #E0EFEA;
-    width: 327px;
+    width: 80%;
     margin: 70px auto;
     height: 10hv;
     max-height: 600px;
@@ -113,5 +114,30 @@ ul li.checked {
   user-select: none;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
+
+body {
+    background: url(https://media.tenor.com/3K6_j30dAIAAAAAC/zen-nature.gif) no-repeat;
+    background-size: cover;
+    background-position: 0% 70%; 
+}
+
+#main-content-container {
+    max-width: 800px;
+}
+
+.main-h1 {
+    text-align: center;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.input-field {
+    margin: 0 60px;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+  }
 }
