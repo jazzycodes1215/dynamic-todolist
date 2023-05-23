@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    min-width: 100%;
+    min-height: 100vh;
+}
+  
+body {
+    background: url(https://media.tenor.com/3K6_j30dAIAAAAAC/zen-nature.gif) no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.submit-btn {
+  height: 15px;
+  color: #564734;
+  border: 1px solid #000;
+  border-radius: 18px;
+  padding: 10px 5px 24px;
+  font-family: "Axiforma Regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+  transition: all .3s ease;
+  text-align: center;
+  border-color: #8EA076;
+  background-color: #8EA076;
+  margin: 0 auto;
+}
+
+.main-h1 {
+    margin: 0 20px;
+}
+
+#main-content-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: #fff;
+    width: 327px;
+    margin: 70px auto;
+    height: 567px;
+    box-shadow: 0px 40px 40px -20px #3C7B61;
+    border-radius: 10px;
+}
