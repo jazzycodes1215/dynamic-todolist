@@ -13,7 +13,7 @@ body {
     background-size: cover;
 }
 
-h1 {
+h1, ul {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-weight: 400;
     color: #564734;
@@ -33,6 +33,7 @@ h1 {
   border-color: #8EA076;
   background-color: #8EA076;
   margin: 40px auto;
+  cursor: pointer;
 }
 
 .bold-text {
@@ -41,7 +42,7 @@ h1 {
 }
 
 .main-h1 {
-    margin: 40px 20px;
+    margin: 40px 20px 0 20px ;
 }
 
 .input-field {
@@ -64,4 +65,12 @@ h1 {
     box-shadow: 0px 40px 40px -20px #677C77;
     border-radius: 10px;
 
+}
+
+#myUL {
+  margin: 10px 0;
+}
+
+#myUL li {
+  margin: 10px 0;
 }
