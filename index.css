@@ -18,14 +18,34 @@ h1, ul {
     font-weight: 400;
     color: #564734;
 }
+ul li.checked {
+    color: #677C77;
+    text-decoration: line-through;
+  }
+  
+
+.close {
+    font-size: 15px;
+    border-radius: 100%;
+    border: none;
+    background-color: #8EA076;
+    margin-left: 10px;
+    padding: 1px 5px 2px 5px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
 
 .submit-btn {
-  height: 15px;
+  height: 20px;
   color: #564734;
   border: 1px solid #000;
   border-radius: 18px;
-  padding: 10px 5px 24px;
   font-family: "Axiforma Regular", sans-serif;
+  padding: 10px 10px 20px 10px;
   font-size: 14px;
   line-height: 1.1;
   transition: all .3s ease;
@@ -42,7 +62,7 @@ h1, ul {
 }
 
 .main-h1 {
-    margin: 40px 20px 0 20px ;
+    margin: 40px 20px 0 40px ;
 }
 
 .input-field {
@@ -54,6 +74,18 @@ h1, ul {
     text-align: center;
 }
 
+.input-field:focus {
+    outline: none !important;
+    border:1px solid #8EA076;
+    box-shadow: 0 0 10px #8EA076;
+  }
+
+.inp-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
 #main-content-container {
     display: flex;
     flex-direction: column;
@@ -61,10 +93,11 @@ h1, ul {
     background-color: #E0EFEA;
     width: 327px;
     margin: 70px auto;
-    height: 550px;
+    height: 10hv;
+    max-height: 600px;
     box-shadow: 0px 40px 40px -20px #677C77;
     border-radius: 10px;
-
+    overflow-y:auto
 }
 
 #myUL {
@@ -72,5 +105,13 @@ h1, ul {
 }
 
 #myUL li {
-  margin: 10px 0;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media only screen and (min-width: 992px) {
 }
