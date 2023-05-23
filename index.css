@@ -5,7 +5,7 @@
 
 body, html {
     min-width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
 }
   
 body {
@@ -15,6 +15,8 @@ body {
 
 h1 {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 400;
+    color: #564734;
 }
 
 .submit-btn {
@@ -30,23 +32,36 @@ h1 {
   text-align: center;
   border-color: #8EA076;
   background-color: #8EA076;
-  margin: 0 auto;
+  margin: 40px auto;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #445F3B;
 }
 
 .main-h1 {
-    margin: 0 20px;
+    margin: 40px 20px;
+}
+
+.input-field {
+    margin: 0 30px;
+    height: 40px; 
+    background-color: #fff;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
 }
 
 #main-content-container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-evenly;
-    height: 90vh;
-    background-color: #fff;
+    background-color: #E0EFEA;
     width: 327px;
     margin: 70px auto;
-    height: 567px;
-    box-shadow: 0px 40px 40px -20px #3C7B61;
+    height: 550px;
+    box-shadow: 0px 40px 40px -20px #677C77;
     border-radius: 10px;
+
 }
